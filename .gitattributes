@@ -1,2 +1,17 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+System.out.println("access granted");
+                getContentPane().remove(current);
+        
+                // Create new content
+                JPanel newPanel = new JPanel();
+                newPanel.add(new JLabel("New Content"));
+                current = newPanel;
+                
+                // Add new content
+                getContentPane().add(current);
+                
+                // Refresh the frame
+                revalidate();
+                repaint();
